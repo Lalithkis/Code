@@ -1,0 +1,8 @@
+a = int(input())
+b = int(input())
+a_str = str(a)
+first_b_digits = int(a_str[:b])
+last_b_digits = int(a_str[-b:])
+print(first_b_digits)
+print(last_b_digits)
+print((first_b_digits, last_b_digits))
